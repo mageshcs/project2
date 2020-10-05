@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,715.39,8584.68,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans  ), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD," Inbound (from: Internet) 10 TB per month 
+ Outbound (to: Amazon Cloud Front) 10 TB per month 
+"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,3844.656,46135.87,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No UpFront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,493.65,5923.8,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,1204.5,14454,USD,"Number of Classic Load Balancers (2), Processed bytes per CLB (100 GB per hour)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+Rationale for reducing the cost:,,,,,,,,
+"Since we're using burstible EC2 instances, we reduced some instances as the reduced burstible instances can handle the load.",,,,,,,,
